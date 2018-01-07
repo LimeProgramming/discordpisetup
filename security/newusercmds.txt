@@ -1,0 +1,8 @@
+sudo adduser <username>
+
+sudo nano /etc/systemd/system/autologin@.service
+sudo nano /etc/lightdm/lightdm.conf
+
+sudo reboot now
+
+sudo deluser -remove-home pi
